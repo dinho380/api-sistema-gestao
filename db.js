@@ -1,10 +1,10 @@
 const Pool = require('pg');
 
 const pool = new Pool.Client({
-    host: 'localhost',
+    host: 'gestorsigma.postgresql.dbaas.com.br',
     user: 'postgres',
-    database: 'gestor',
-    password: 'logtec',
+    database: 'gestorsigma',
+    password: 'Sigma@123',
     port: 5432
 
 }
